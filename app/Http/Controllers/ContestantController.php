@@ -143,8 +143,8 @@ class ContestantController extends Controller
             'email'             => 'required|email',
             'phone'             => 'required',
             'twitter_user'      => 'required',
-            'ticket_image'      => 'required|mimes:jpg,jpeg,bmp,png,gif',
-            'contest_image'     => 'required',
+            'ticket_image'      => 'required|mimes:jpg,jpeg,bmp,png,gif,pdf',
+            'contest_image'     => 'required|mimes:jpg,jpeg,bmp,png,gif',
         );
         $validator = Validator::make(Input::all(), $rules, $messages);
 

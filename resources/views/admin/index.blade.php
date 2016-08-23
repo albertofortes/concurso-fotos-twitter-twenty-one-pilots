@@ -27,7 +27,7 @@
               <p>Concursantes</p>
             </div>
             <div class="icon">
-              <i class="ion ion-bars"></i>
+              <i class="ion ion-stats-bars"></i>
             </div>
             <a href="{{ url('/admin/contestants/photos') }}" class="small-box-footer">Ver todos <i class="fa fa-arrow-circle-right"></i></a>
           </div>
@@ -57,7 +57,7 @@
               <p>Finalistas</p>
             </div>
             <div class="icon">
-              <i class="ion ion-bars"></i>
+              <i class="ion ion-stats-bars"></i>
             </div>
             <a href="{{ url('/admin/contestants/finalists') }}" class="small-box-footer">Ver todos <i class="fa fa-arrow-circle-right"></i></a>
           </div>
